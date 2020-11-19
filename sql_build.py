@@ -104,7 +104,7 @@ class SqlBuilder(SqlConstants):
         dic_data[SqlConstants.ORDER] = dic_data.get(SqlConstants.ORDER, '')
 
         # group_by
-        dic_data[SqlConstants.GROUP_BY] = dic_data.get(SqlConstants.GROUP_BY, '')
+        dic_data[SqlConstants.GROUP_BY] = dic_data.get(SqlConstants.GROUP_BY, [])
 
         # having
         dic_data[SqlConstants.HAVING] = dic_data.get(SqlConstants.HAVING, '')
